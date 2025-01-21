@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Cart</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f9;
+    }
+
+    .product-cart {
+      width: 500px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .product-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .product-details {
+      padding: 16px;
+    }
+
+    .product-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .product-description {
+      font-size: 14px;
+      color: #555;
+      margin: 10px 0;
+    }
+
+    .product-price {
+      font-size: 20px;
+      color: #007BFF;
+      margin: 10px 0;
+    }
+
+    .buy-now-button {
+      display: inline-block;
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      margin-top: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .buy-now-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="product-cart">
+    <img src="**url**" alt="Product Image" class="product-image">
+    <div class="product-details">
+      <h2 class="product-title">**title**</h2>
+      <p class="product-description">**des**</p>
+      <p class="product-price">$ **price**</p>
+      <p>Ratting</p>
+      <a href="#" class="buy-now-button">Buy Now</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+********Built is middleware====:*******
+
+express has the following built-in middleware functions:
+
+1. express.static==>> server static assets such as HTML files , imgaes and so on.
+2. express.json ==> parse incomming requests the url-encoded payloads. 
+3. express.urlencoded ==> parse incoming requests with url-encoded payloads .
+
+*******Third-Party middleware ********
+use third-party middleware to add functionality to Express apps. 
+Install the Node.js module for the require functionality , the load it in you application level .
+The following example illustrates installing and loading the cookie-parsing middleware function cookie-party
+
+******   $   npm install cookie-parser ********
+
+
